@@ -1,0 +1,135 @@
+
+/********************** Dashboard *****************/
+.dashboard-box {
+    border: 2px solid;
+    width: 100%;
+    display: inline-block;
+    font-size: 20px;
+    padding: 30px 0;
+    text-align: center;
+    margin-bottom: 25px;
+    transition: all ease-in 0.2s;
+        -webkit-transition: all ease-in 0.2s;
+}
+.dashboard-box:hover {
+    background: #6f5499;
+    color: #fff;
+    border-radius: 10px;
+}
+
+body{
+    background-color: #f0f8ff;
+}
+
+.header{
+    padding-top: 10px;
+}
+.header h2,h3{
+    margin-top: 10px;
+}
+.companyname a{
+    text-decoration: none;
+}
+.menu{
+        background-color: #7dc6e4;
+}
+.menu .navbar-default{
+    background-color: #7dc6e4;
+    border-color: #7dc6e4;    
+    margin: 0px;
+}
+.menu .dropdown .btn{
+    color: #000;
+}
+.menu .dropdown .btn:hover{
+    color: #fff ;
+}
+
+/**********************box***************************/
+.box{
+   padding: 60px 20px;
+    background-color: teal;
+    margin-top: 10px;
+    border-radius: 10px 0px;
+}
+
+/**********************footer***************************/
+.footer{
+    background-color: #7dc6e4;
+    margin-top: 20px;
+    padding: 10px 0px;
+}
+.footer .dropup .btn{
+    color: #000;
+}
+.footer .dropup .btn:hover{
+    color: #fff ;
+}
+
+/**********************form Start******/ 
+.form{
+    margin-top: 20px;
+    
+}
+.form form{
+    background-color: white;
+    padding: 20px 30px;
+}
+.form input[type='text'],input[type='email'],select[multiple]{
+    min-height: 40px;
+    border-radius: 10px 0px;
+}
+.form select{
+    min-height: 40px;
+    border-radius: 10px 0px;
+}
+.form textarea{
+    min-height: 80px;
+    max-width: 495px;
+    border-radius: 10px 0px;
+}
+
+.input-group-addon{
+    max-width: 166px;
+    border-radius: 10px 0px;
+}
+.input-group-addon input[type='text']{
+    max-width: 140px;
+}
+/**********************Log in Start******/ 
+ #login-text{
+            color: #199a81;
+        }
+        .btn-fp {
+            border-radius: 0;
+            background: #1abc9c;
+            color: #fff;
+        }
+
+            .btn-fp:hover {
+                background: #199a81;
+                color: #eee;
+            }
+
+      #body input[type="text"], input[type="password"] {
+            border-radius: 0;
+            border-color: #85d8c8;
+            color: #199a81;
+        }
+        .field-validation-error
+        {
+            color: #ff0000;
+            font-size:12px;
+        }
+        .login-register-box {
+             
+            padding: 15px;
+        }
+
+        #login-btn, #register-btn {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        
+   /**********************Log in End******/
